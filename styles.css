@@ -1,0 +1,87 @@
+*{
+    font-family: Apple Chancery, cursive;
+}
+#head:hover{
+    background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+background-clip: text;
+color: transparent;
+
+
+}
+body{
+ background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);;
+}
+fieldset{
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 50%;
+}
+input:focus{
+    background-color: brown;
+}
+input:required{
+    border: solid  #22C1C3;
+ 
+}
+input:read-only{
+    background-color: aqua;
+}
+input[type="radio"]:checked{
+    height: 20px;
+    width: 20px;
+}
+input[type="reset"]{
+    border-radius: 15px;
+    background-color:chocolate;
+}
+input[type="submit"]{
+    border-radius: 15px;
+}
+select{
+    background-color: fuchsia;
+    cursor: pointer;
+}
+input[type="text"]+span{
+    display: none;
+}
+input[type="text"]:hover+span{
+    display: inline;
+    background-color: chartreuse;
+}
+input[type="tel"]+span{
+    display: none;
+}
+input[type="tel"]:hover+span{
+    display: inline;
+    background-color: chartreuse;
+}
+input[type="email"]+span{
+    display: none;
+}
+input[type="email"]:hover+span{
+    display: inline;
+    background-color: chartreuse;
+}
+input[type="password"]+span{
+    display: none;
+}
+input[type="password"]:hover+span{
+    display: inline;
+    background-color: chartreuse;
+}
+input[type="date"]+span{
+    display: none;
+}
+input[type="date"]:hover+span{
+    display: inline;
+    background-color: chartreuse;
+}
+textarea+span{
+    display: none;
+}
+textarea:hover+span{
+    display: inline;
+    background-color: chartreuse;
+}
